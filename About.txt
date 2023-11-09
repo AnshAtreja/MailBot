@@ -1,0 +1,23 @@
+## This application uses following libraries:-
+
+1. googleapis -> Provides us with the Gmail API (along with several other API's)
+Gmail API is a RESTful API that can be used to access Gmail mailboxes and send mail. For most web applications the Gmail API is the best choice for authorized access to a user's Gmail data and is suitable for various applications, such as:
+    a)Read-only mail extraction, indexing, and backup
+    b)Automated or programmatic message sending
+    c)Email account migration
+    d)Email organization including filtering and sorting of messages
+    e)Standardization of email signatures across an organization
+
+2. @google-cloud/local-auth@2.1.0 -> This is a library for handling Google Cloud authentication and credentials. It's commonly used in applications that need to authenticate with Google Cloud services locally, such as when running services on your development machine.
+
+
+## This application uses the following technologies:-
+
+1. Node.js -> Node.js is an open-source, server-side JavaScript runtime environment that allows you to execute JavaScript code on the server. It's built on the Chrome V8 JavaScript engine, which is known for its high performance, and it's designed for building scalable and networked applications. Node.js provides a non-blocking, event-driven architecture that makes it well-suited for developing real-time applications, web servers, and various types of networked software.
+
+
+## Improvements that can me made
+
+1. In terms of code, the folder structure can be managed better to provide ease for debugging and readability. For example the initital authorization from Google can be just put in another file as it may not require regular changes.
+2. The security of the app can be improved by storing the credentials and tokens securely using environment variables.
+3. The code may be optimized further to handle larger volumes of data.
