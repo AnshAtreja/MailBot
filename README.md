@@ -16,4 +16,6 @@ This app was created using Node.js. It uses the Gmail API to connect to your Gma
   ```
   node .
   ```
+- Now the first time you run this file, you would need to sign in to your google account
+- If you wish to change the gmail account, you can just delete the token.json file that will be created after initializing this project for the first time and then you can run the project again with above mentioned steps and choose a different gmail account
 
